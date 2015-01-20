@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TranslateApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Submit</string>
+    <string name="translated">Translated Text</string>
+    <string name="output">Enter a word to translate to get started</string>
+    
+    <string name="toast_msg">Please enter text to translate</string>
+    
+    <string name="translate_error">Could not translate your word. Please try a different word</string>
+	<string name="ok">OK</string>
+</resources>
