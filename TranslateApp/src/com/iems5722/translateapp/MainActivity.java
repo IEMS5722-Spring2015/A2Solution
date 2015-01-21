@@ -42,9 +42,6 @@ public class MainActivity extends Activity {
 				translateText();
 			}
 		});
-		// load dictionary
-		WordDictionary wordDict = new WordDictionary();
-		dictionary = wordDict.getDictionary();
 	}
 	
 	// translate look up
