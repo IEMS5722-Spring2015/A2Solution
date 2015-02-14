@@ -25,14 +25,20 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080004;
-        public static final int label=0x7f080002;
-        public static final int submit=0x7f080001;
-        public static final int textInput=0x7f080000;
-        public static final int textOutput=0x7f080003;
+        public static final int action_settings=0x7f080008;
+        public static final int histList=0x7f080000;
+        public static final int http_submit=0x7f080003;
+        public static final int label=0x7f080004;
+        public static final int listDetail=0x7f080007;
+        public static final int tcp_submit=0x7f080002;
+        public static final int textInput=0x7f080001;
+        public static final int textOutput=0x7f080005;
+        public static final int view_history=0x7f080006;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_history=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int list_item=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -40,12 +46,17 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int ok=0x7f050007;
-        public static final int output=0x7f050004;
-        public static final int submit=0x7f050002;
-        public static final int toast_msg=0x7f050005;
-        public static final int translate_error=0x7f050006;
-        public static final int translated=0x7f050003;
+        public static final int cancel=0x7f050009;
+        public static final int delete_query=0x7f05000c;
+        public static final int history_name=0x7f05000a;
+        public static final int http_submit=0x7f050003;
+        public static final int ok=0x7f050008;
+        public static final int output=0x7f050005;
+        public static final int tcp_submit=0x7f050002;
+        public static final int toast_msg=0x7f050006;
+        public static final int translate_error=0x7f050007;
+        public static final int translated=0x7f050004;
+        public static final int view_history=0x7f05000b;
     }
     public static final class style {
         /** 

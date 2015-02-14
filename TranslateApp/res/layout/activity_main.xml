@@ -18,12 +18,19 @@
     </EditText>
 
     <Button
-        android:id="@+id/submit"
+        android:id="@+id/tcp_submit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/submit" />
+        android:text="@string/tcp_submit" />
 
+    <Button
+        android:id="@+id/http_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/http_submit" />    
+    
     <TextView
         android:id="@+id/label"
         android:layout_width="fill_parent"
@@ -39,4 +46,11 @@
         android:text="@string/output" 
         android:textAppearance="?android:attr/textAppearanceMedium"/>
 
+    <Button
+        android:id="@+id/view_history"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_history" />       
+    
 </LinearLayout>
